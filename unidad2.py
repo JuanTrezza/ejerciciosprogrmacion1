@@ -72,6 +72,20 @@ def ejercicio_10():
 	print("El tipo de dato del resultado es:", type(operacion))
 
 
+TITULOS_EJERCICIOS = {
+	"1": "Area de un rectangulo",
+	"2": "Conversion de Celsius a Fahrenheit",
+	"3": "Concatenacion de nombre y edad",
+	"4": "Area de un circulo",
+	"5": "Operaciones basicas entre dos numeros",
+	"6": "Operacion compuesta y tipo de dato",
+	"7": "Variable booleana de aprobado",
+	"8": "Perimetro de triangulo equilatero",
+	"9": "Ingreso de datos personales y tipos",
+	"10": "Operacion aritmetica y tipo de dato",
+}
+
+
 ejercicios = {
 	"1": ejercicio_1,
 	"2": ejercicio_2,
@@ -87,10 +101,14 @@ ejercicios = {
 
 
 def main():
-	print("Unidad 2 - Selecciona un ejercicio del 1 al 10")
+	print("Unidad 2 - Ejercicios resueltos")
+	for numero, titulo in TITULOS_EJERCICIOS.items():
+		print(f"{numero}. {titulo}")
+
 	opcion = input("Ingresa el número del ejercicio que quieres ejecutar: ")
 
 	if opcion in ejercicios:
+		print(f"\nEjercicio {opcion}: {TITULOS_EJERCICIOS[opcion]}")
 		ejercicios[opcion]()
 	else:
 		print("Opción inválida. Debes ingresar un número del 1 al 10.")

@@ -1,7 +1,24 @@
-# ejerciciosprogrmacion1
+# Ejercicios de Programacion
 
-Este repositorio contiene las respuestas y resoluciones de los ejercicios, actividades y trabajos practicos vistos en clase.
+Este repositorio contiene ejercicios resueltos de clase organizados por unidad.
 
-Su objetivo es mantener organizado el material de programacion, registrar el avance realizado durante la cursada y compartir las soluciones con el profesor para su revision.
+## Estructura
 
-Aqui se iran agregando los ejercicios resueltos a medida que se trabajen en clase.
+- `unidad2.py`: ejercicios de la Unidad 2 (1 al 10).
+- `unidad3.py`: ejercicios de la Unidad 3 (1 al 17).
+
+## Como usar
+
+1. Ejecuta el archivo de la unidad que quieras revisar.
+2. Elige un numero de ejercicio en el menu.
+3. El programa muestra la resolucion correspondiente.
+
+Ejemplo:
+
+```bash
+python unidad3.py
+```
+
+## Objetivo
+
+Que cada ejercicio quede identificado de forma clara para facilitar la correccion y revision docente.
