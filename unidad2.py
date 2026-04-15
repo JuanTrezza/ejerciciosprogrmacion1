@@ -26,6 +26,9 @@ def ejercicio_4():
 
 
 def ejercicio_5():
+	# OBSERVACION: la division no contempla el caso numero2 == 0.
+	# El enunciado no lo exige, pero si el usuario ingresa 0 el programa
+	# cortara con ZeroDivisionError. Conviene agregar una validacion.  --->> igual todavia no vimos manejo de errores, asi que lo dejamos asi por ahora.
 	numero1 = float(input("Ingresa el primer número: "))
 	numero2 = float(input("Ingresa el segundo número: "))
 
@@ -57,6 +60,10 @@ def ejercicio_8():
 
 
 def ejercicio_9():
+	# OBSERVACION: al convertir edad con int(), se pierde la nocion de que
+	# input() siempre devuelve str. Si el objetivo didactico del ejercicio es
+	# mostrar los tipos de dato "crudos" que entrega input(), conviene dejar
+	# edad como string. Si se quiere trabajar con numero, la conversion es valida.
 	nombre = input("Ingresa tu nombre: ")
 	edad = int(input("Ingresa tu edad: "))
 	ciudad = input("Ingresa tu ciudad de residencia: ")
