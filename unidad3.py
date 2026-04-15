@@ -1,10 +1,15 @@
 def ejercicio_1():
+    # Aclaración: el enunciado pide el mensaje exacto "¡Hola, [nombre]! Tienes [edad] años"
+    # con signos de exclamacion "¡...!" alrededor del saludo, no un punto.
     nombre = input("Ingresa tu nombre: ")
     edad = input("Ingresa tu edad: ")
     print(f"Hola, {nombre}. Tienes {edad} años.")
 
 
 def ejercicio_2():
+    # Aclaración: el enunciado pide construir las figuras "utilizando concatenacion
+    # y replicacion de strings" (operadores + y *). Aca estan escritas como
+    # literales fijos, sin usar replicacion ("*" * n) ni concatenacion.
     print("Figura 1:")
     print("+***************+")
     print("*               *")
@@ -175,6 +180,9 @@ def ejercicio_14():
 
 
 def ejercicio_15():
+    # Aclaración: el enunciado pide explicitamente verificar el signo negativo
+    # "usando indexacion" (por ejemplo entrada[0] == "-"), no con startswith().
+    # La logica funciona, pero no cumple el requisito pedagogico de la consigna.
     entrada = input("Ingresa un dato: ").strip()
 
     if entrada.startswith("-") and entrada[1:].isdigit():
