@@ -7,6 +7,7 @@ Este repositorio contiene ejercicios resueltos de clase organizados por unidad.
 - `unidad2.py`: ejercicios de la Unidad 2 (1 al 10).
 - `unidad3.py`: ejercicios de la Unidad 3 (1 al 17).
 - `unidad4.py`: ejercicios de la Unidad 4 (1 al 8).
+- `unidad5.py`: ejercicios de la Unidad 5 (1 al 8).
 
 ## Como usar
 
@@ -25,6 +26,12 @@ Tambien puedes revisar la Unidad 4 con:
 
 ```bash
 python unidad4.py
+```
+
+Y la Unidad 5 con:
+
+```bash
+python unidad5.py
 ```
 
 ## Objetivo
