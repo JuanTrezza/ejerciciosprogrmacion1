@@ -14,6 +14,7 @@ Algunos archivos estan preparados como guias con consignas y respuestas, y otros
 - `unidad4.py`: ejercicios correspondientes a la Unidad 4.
 - `unidad5.py`: ejercicios correspondientes a la Unidad 5.
 - `unidad6.py`: ejercicios de la Unidad 6 con menu interactivo para ejecutar cada punto por separado.
+- `unidad7.py`: 14 ejercicios sobre listas (Nivel Medio y Nivel Superior), con consignas y resoluciones.
 
 ## Como revisar los ejercicios
 
@@ -43,6 +44,7 @@ python unidad2.py
 python unidad3.py
 python unidad4.py
 python unidad5.py
+python unidad7.py
 ```
 
 ## Objetivo
